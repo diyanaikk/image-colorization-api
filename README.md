@@ -28,18 +28,18 @@ A FastAPI-based web service to automatically colorize old black-and-white photos
 + OpenCV for image handling
 
 🧪 How to Use
-+ Step 1: Clone the repo and install dependencies
++ Step 1: Clone the repo and install dependencies :
 pip install -r requirements.txt
-+ Step 2: Run the FastAPI server
++ Step 2: Run the FastAPI server : 
 uvicorn app.main:app --reload
-+ Step 3: Open FastAPI Docs UI
++ Step 3: Open FastAPI Docs UI : 
 Visit: http://127.0.0.1:8000/docs
-+ Step 4: Upload an Image
-Scroll to the /colorize-image/ POST endpoint.
-Click "Try it out"
-Upload your grayscale image (.jpg, .png, etc.)
-Click "Execute"
-You’ll receive the file path to the colorized image, saved under the static/uploads/ folder.
++ Step 4: Upload an Image: 
+> Scroll to the /colorize-image/ POST endpoint.
+> Click "Try it out"
+> Upload your grayscale image (.jpg, .png, etc.)
+> Click "Execute"
+> You’ll receive the file path to the colorized image, saved under the static/uploads/ folder.
 
 🔖 License Disclaimer
 The colorization model files used in this project are the intellectual property of Richard Zhang et al. and are shared for academic and research purposes.
