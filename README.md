@@ -2,7 +2,18 @@ Old Photo Colorization API
 A FastAPI-based web service to automatically colorize old black-and-white photos, making them vivid and lifelike using deep learning models.
 
 📸 Before and After
-<table> <tr> <td><b>Original</b></td> <td><b>Colorized</b></td> </tr> <tr> <td><img src="static/uploads/pic1.jpg" width="300"/></td> <td><img src="static/uploads/colorized_pic1.jpg" width="300"/></td> </tr> </table>
+
+<table>
+<tr>
+  <td><b>Original</b></td>
+  <td><b>Colorized</b></td>
+</tr>
+<tr>
+  <td><img src="https://github.com/diyanaikk/image-colorization-api/blob/main/examples/pic1.jpg?raw=true" width="300"/></td>
+  <td><img src="https://github.com/diyanaikk/image-colorization-api/blob/main/examples/colorized_pic1.jpg?raw=true" width="300"/></td>
+</tr>
+</table>
+
 
 ⚙️ Features
 + Upload a grayscale photo through FastAPI's default /docs UI.
